@@ -8,6 +8,7 @@ Today-I-Learned (TIL) is inspired by Thoughbot, TIL is a repository for everyone
 # Table of Contents
 
 - 📚[JavaScript](#javascript)
+  - [Millions-of-Numbers](#millions-of-numbers)
 - 📚[Job Search](#job-search)
   - [Subsection A](#subsection-a)
   - [Subsection B](#subsection-b)
@@ -17,6 +18,8 @@ Today-I-Learned (TIL) is inspired by Thoughbot, TIL is a repository for everyone
 
 # JavaScript
 This is the JavaScript section
+## Millions of Numbers
+Is this right? Should be Millions of Numbers
 
 
 
