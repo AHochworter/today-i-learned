@@ -1,6 +1,7 @@
+## Millions-of-Numbers
 - Date : 2024-02-20
 - Tags : #javascript #code-challenge
-## Millions-of-Numbers
+  
 Flush out numbers that are present in each of three different arrays of numbers.
 Given three different (same size) arrays of numbers, iterate over each and only return the numbers that are present in all three.
 
