@@ -5,14 +5,16 @@ This TIL repo is inspired by Khanh Nguyen from here on GitHub.  He has a wonderf
 Today-I-Learned (TIL) is inspired by Thoughbot, TIL is a repository for everyone to share what we have learned today.
 
 
-# Table of Contents
 
-- 📚[JavaScript](#javascript)
-  - [Millions-of-Numbers](#millions-of-numbers)
-- 📚[Job Search](#job-search)
-  - [Subsection A](#subsection-a)
-  - [Subsection B](#subsection-b)
-- 📚[Section 2](#section-2)
+| Table of Contents | :point_down: |
+| -------- | -------- |
+| :books: **JavaScript** [ 1 articles ] | |
+| [Millions-of-Numbers](#millions-of-numbers) | 2024-02-28 |
+| :books: **Job Search** [ 1 articles ] | |
+| [Getting database from data range to array of enum objects](apps-script/getting-database-from-data-range-to-array-of-enum-objects.md) | 2023-09-03 |
+| :books: **Job Search** [ 1 articles ] | |
+| [Getting database from data range to array of enum objects](apps-script/getting-database-from-data-range-to-array-of-enum-objects.md) | 2023-09-03 |
+
 
 # What I learned
 
