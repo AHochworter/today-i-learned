@@ -8,6 +8,46 @@ audio files play sounds.
 
 The javascript30 projects will all be coded in vanilla javascript.  This was a great way to start refreshing the querySelector and eventListener concepts.
 
+Here's the scripts.js code that we built to get things working
+javascript
+const sayHello = () => {
+  console.log('You Got This!');
+};
+
+sayHello();
+
+/*Play sound associated with that key and pops the button up and flashes the yellow border.
+    Add a class of "playing" to our key class in css
+        keycode.info -> website will show you the keycodes that are associated with each key
+    Data attribute in html - so that people didn't have to make up their own attributes. data-"attribute you want".
+            for this exercise data-key
+*/
+
+//first let's listen for a key-up event
+
+function playSound(e) {
+  const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+  //shift option, down arrow copies the line you're on
+  const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
+
+  if (!audio) return; //stop the function if no audio associated
+
+  audio.currentTime = 0;
+  audio.play();
+  console.log(key);
+  key.classList.add('playing');
+}
+
+function removeTransition(e) {
+  if (e.propertyName !== 'transform') return;
+  this.classList.remove('playing');
+}
+
+const keys = document.querySelectorAll('.key');
+keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+
+window.addEventListener('keydown', playSound);
+
 VS Code Short Cut that I re-learned today.
 
 Shift + Option + Down Arrow -> copies the line of code down to the next line.
