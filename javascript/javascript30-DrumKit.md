@@ -3,13 +3,12 @@
 - Date : 2024-02-23
 - Tags : #javascript #javascript30
 
-This small project stepped us through building functionality that allows the user to "keydown" certain keys and have different
-audio files play sounds.
+This day 1 JavaScript30 project stepped us through building out the functionality that allows the user to "keydown" certain keys and have different "drum sound" audio files play.
 
-The javascript30 projects will all be coded in vanilla javascript.  This was a great way to start refreshing the querySelector and eventListener concepts.
+These projects will all be coded in vanilla javascript.  This feels like a great way to start refreshing some fundamental concepts.
 
-Here's the scripts.js code that we built to get things working
-javascript
+Here's the scripts.js code that we built to get things working for the drum kit:
+```js
 const sayHello = () => {
   console.log('You Got This!');
 };
@@ -47,6 +46,7 @@ const keys = document.querySelectorAll('.key');
 keys.forEach(key => key.addEventListener('transitionend', removeTransition));
 
 window.addEventListener('keydown', playSound);
+```
 
 VS Code Short Cut that I re-learned today.
 
