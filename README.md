@@ -8,7 +8,7 @@ Today-I-Learned (TIL) is inspired by Thoughbot, TIL is a repository for everyone
 | -------- | -------- |
 | :books: **JavaScript** | |
 | [Millions-of-Numbers](javascript/millions-of-numbers.md) | 2024-02-28 |
-| [JavaScript30](javascript/javascript30.md) | 2024-02-23 |
+| [JavaScript30](javascript/javascript30-DrumKit.md) | 2024-02-23 |
 | :books: **Problem Solving** | |
 | [Daily-Problem-Solving](problem-solving/daily-problem-solving-turing.md) | 2024-03-14 |
 | :books: **Angular** | |
